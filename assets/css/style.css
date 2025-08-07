@@ -460,7 +460,7 @@ p {
 
 .feature-slider {
   width: 100%;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   overflow-x: visible;
 }
 
