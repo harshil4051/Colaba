@@ -104,10 +104,10 @@ p {
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #ffffff;
+  transition: all 0.3s ease;
 }
 
 .lang-btn:hover {
-  /* color: white; */
   background-color: transparent;
   border-color: #007bff;
 }
@@ -116,6 +116,7 @@ p {
   background-color: #377df6;
   color: #ffffff;
   border: 1px solid #007bff;
+  transition: all 0.3s ease;
 }
 
 .sign-in-btn:hover {
@@ -216,6 +217,7 @@ p {
   padding: 16px 32px;
   border-radius: 12px;
   box-shadow: 0px 20px 14px rgba(23, 36, 84, 0.12);
+  transition: all 0.3s ease;
 }
 
 .demo-btn:hover {
@@ -231,6 +233,7 @@ p {
   padding: 16px 32px;
   border-radius: 12px;
   box-shadow: 0px 20px 14px rgba(23, 36, 84, 0.12);
+  transition: all 0.3s ease;
 }
 
 .trial-btn:hover {
@@ -895,6 +898,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
+  margin-top: 20px;
 }
 
 .learn-btn:hover {
@@ -903,19 +907,17 @@ p {
   color: #377df6;
 }
 
-.learn-btn a {
-  text-decoration: none;
-}
-
 .learn-btn {
   text-align: center;
   justify-content: center;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 12px;
+  color: #fff;
   border: 1px solid #007bff;
   box-shadow: 0px 20px 14px rgba(23, 36, 84, 0.12);
+  transition: all 0.3s ease;
 }
 
 .work-text-box {
@@ -1057,6 +1059,7 @@ p {
   width: 48px;
   border: none;
   border-radius: 12px;
+  transition: all 0.3s ease;
 }
 
 .nav-right {
@@ -1066,6 +1069,7 @@ p {
   width: 48px;
   border: none;
   border-radius: 12px;
+  transition: all 0.3s ease;
 }
 
 .contact-section {
@@ -1164,7 +1168,7 @@ button[type="submit"] {
   border: 1px solid white;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 button[type="submit"]:hover {
