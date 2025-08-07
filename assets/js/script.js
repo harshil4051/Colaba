@@ -19,10 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".feature-slider", {
     slidesPerView: "auto",
     spaceBetween: 20,
-    // loop: true,
     freeMode: true,
     grabCursor: true,
-    // mousewheel: true,
     breakpoints: {
       768: {
         // slidesPerView: 2,
@@ -37,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // customer-slider
 document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".customer-slider", {
-    slidesPerView: "auto",
+    slidesPerView: "3",
     // spaceBetween: 20,
     // loop: true,
     freeMode: true,
