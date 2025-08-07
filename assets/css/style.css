@@ -555,20 +555,43 @@ p {
   font-weight: 500;
 }
 
+.explore-tabs .nav-item {
+   border-left: 1px solid rgba(61, 61, 61, 0.5);
+}
 .explore-tabs .nav-link {
   display: flex;
   text-align: left;
   color: #3d3d3d80 !important;
   padding: 1rem 1.5rem;
   border-radius: 0;
-  border-left: 2px solid rgba(61, 61, 61, 0.5);
+  /* border-left: 3px solid rgba(61, 61, 61, 0.5); */
+  
 }
 
 .explore-tabs .nav-link.active {
   background-color: transparent;
-  border-left: 3px solid #377df6;
+  border-left: 4px solid #377df6;
   color: #060606 !important;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.explore-tabs .nav-item .point-details {
+    display: none;
+    font-size: 16px;
+    line-height: 24.4px;
+    color: #6c757d;
+    margin-top: 0.5rem;
+    padding-left: 1.25rem;
+    max-width: 400px;
+}
+
+.explore-tabs .nav-link.active + .point-details {
+    display: block;
+}
+
+.explore-tabs .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
 }
 
 .explore-tabs .tab-content {

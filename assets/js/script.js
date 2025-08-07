@@ -1,3 +1,4 @@
+// toggle button 
 document.addEventListener("DOMContentLoaded", function () {
   const burger = document.getElementById("burger");
   const mobileMenu = document.querySelector(".mobile-menu");
@@ -23,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
     grabCursor: true,
     breakpoints: {
       768: {
-        // slidesPerView: 2,
+        slidesPerView: 2,
       },
       520:{
-        // slidesPerView: 1,
+        slidesPerView: 1,
       }
     },
   });
@@ -37,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".customer-slider", {
     slidesPerView: "3",
     // spaceBetween: 20,
-    // loop: true,
     freeMode: true,
     grabCursor: true,
     navigation: {
